@@ -20,7 +20,7 @@ An independent-style validation framework applied to the credit-risk PD model bu
 
 The underlying holdout predictions and source metrics are real outputs from this account's separate credit-risk project and are pinned to commit `98bbae43d8c711e98021539b184fc8f672a6273c`. The underlying German-credit sample is public research data. Governance thresholds, model tiering and issue severities in this repository are **illustrative internal-policy assumptions**, not the policies of any bank, regulator or employer.
 
-This repository does **not** claim production approval. Its purpose is to demonstrate how an independent validation function challenges a model rather than merely rebuilding it.
+This repository does **not** claim production approval. Its purpose is to demonstrate how an independent validation function challenges a model rather than merely rebuilding it. The immutable source pin also prevents silent changes in the validated evidence set.
 
 ## Run
 
