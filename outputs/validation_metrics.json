@@ -1,0 +1,39 @@
+{
+  "challenger": {
+    "auc": 0.752857142857143,
+    "auc_ci_95": [
+      0.6792523216404914,
+      0.826785070320952
+    ],
+    "brier": 0.19579481800630075,
+    "calibration_intercept": -0.6569308049598352,
+    "calibration_slope": 1.428658889281854,
+    "gini": 0.505714285714286,
+    "ks": 0.3857142857142857
+  },
+  "challenger_auc_delta": 0.02333333333333354,
+  "default_rate": 0.3,
+  "high_findings": 2,
+  "holdout_psi": 0.039232446444870686,
+  "holdout_rows": 200,
+  "methodology_flags": {
+    "governance_thresholds": "illustrative",
+    "institutional_policy_claim": false,
+    "source_predictions": "empirical saved holdout outputs from separate credit-risk repository"
+  },
+  "open_findings": 5,
+  "primary": {
+    "auc": 0.7295238095238095,
+    "auc_ci_95": [
+      0.6531255138225996,
+      0.7994466651895553
+    ],
+    "brier": 0.18375347345221954,
+    "calibration_intercept": -0.31215652470394,
+    "calibration_slope": 0.6411495624095451,
+    "gini": 0.4590476190476189,
+    "ks": 0.37380952380952376
+  },
+  "source_commit": "98bbae43d8c711e98021539b184fc8f672a6273c",
+  "validation_opinion": "conditionally acceptable for research; not production-approved"
+}

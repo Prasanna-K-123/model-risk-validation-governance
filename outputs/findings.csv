@@ -1,0 +1,6 @@
+finding_id,area,severity,status,observation,recommendation
+MRV-002,calibration,high,open,Calibration slope 0.641 falls outside the illustrative 0.80-1.20 range.,Recalibrate on representative development/validation data and retest slope/intercept.
+MRV-003,calibration,medium,open,Calibration intercept -0.312 exceeds the illustrative absolute tolerance.,Review calibration-in-the-large and portfolio default-rate alignment.
+MRV-004,benchmarking,medium,open,Challenger AUC exceeds the primary by 0.023.,Document the interpretability/performance trade-off and formally justify model selection.
+MRV-006,validation design,high,open,The source model explicitly states that genuine out-of-time validation was not performed.,Obtain a temporal cohort and perform out-of-time validation before production approval.
+MRV-007,scope boundary,medium,open,LGD/EAD layers are not empirically estimated in the source project.,Keep PD validation conclusions separate from any LGD/EAD or ECL production-use claim.
